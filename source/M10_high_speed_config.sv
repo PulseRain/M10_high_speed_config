@@ -40,7 +40,7 @@ module M10_high_speed_config (
     // external interrupt
     //=======================================================================
         
-        input wire  unsigned [1 : 0]                INTx,
+       // input wire  unsigned [1 : 0]                INTx,
     
     //=======================================================================
     // IO port
@@ -62,7 +62,7 @@ module M10_high_speed_config (
     // LED
     //=======================================================================
         output wire                                 debug_led,
-        output wire											 led_red,
+        output wire											 red_led,
         output wire                                 green_led		  
    
 );
@@ -132,6 +132,8 @@ module M10_high_speed_config (
         wire  unsigned [1 : 0]                                            flash_buffer_ping_state;
         wire  unsigned [1 : 0]                                            flash_buffer_pong_state;
         
+		  wire  unsigned [1 : 0]                									  INTx;
+		  
     //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     // PLL and clock control block
     //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -154,7 +156,16 @@ module M10_high_speed_config (
             .data_out (reset_button)
         );
     
-     
+		  
+	 
+    //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    // No Intrrrupt
+    //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    	  
+		  
+		  assign INTx = 0;
+		  
+	  
     //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     // UART
     //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -295,7 +306,7 @@ module M10_high_speed_config (
     //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         assign debug_led = (debug_led_i) | (~push_button);
     
-	     assign led_red    = 1'b1;
+	     assign red_led    = 1'b1;
 		  assign green_led  = 1'b0;
 		  
     //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

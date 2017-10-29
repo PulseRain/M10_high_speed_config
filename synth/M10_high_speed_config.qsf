@@ -87,7 +87,7 @@ set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to UART_TXD
 set_instance_assignment -name FAST_INPUT_REGISTER ON -to UART_RXD
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to debug_led
 set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to UART_TXD
-set_global_assignment -name SEED 18
+set_global_assignment -name SEED 19
 set_global_assignment -name REMOVE_REDUNDANT_LOGIC_CELLS ON
 set_global_assignment -name FIT_ATTEMPTS_TO_SKIP 0
 set_global_assignment -name PRE_MAPPING_RESYNTHESIS ON
@@ -120,7 +120,7 @@ set_global_assignment -name PERIPHERY_TO_CORE_PLACEMENT_AND_ROUTING_OPTIMIZATION
 set_global_assignment -name WEAK_PULL_UP_RESISTOR OFF
 set_global_assignment -name TREAT_BIDIR_AS_OUTPUT OFF
 set_location_assignment PIN_135 -to P1[6]
-set_location_assignment PIN_131 -to P1[7]
+set_location_assignment PIN_106 -to P1[7]
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to P1
 set_global_assignment -name AUTO_RESOURCE_SHARING OFF
 set_global_assignment -name SYNTH_PROTECT_SDC_CONSTRAINT OFF
