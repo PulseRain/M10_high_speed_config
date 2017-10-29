@@ -1,16 +1,19 @@
 #! python3
 ###############################################################################
-# Copyright (c) 2016, PulseRain Technology LLC 
+# Copyright (c) 2017, PulseRain Technology LLC 
 #
-# This program is distributed under a dual license: an open source license, 
-# and a commercial license. 
-# 
-# The open source license under which this program is distributed is the 
-# GNU Public License version 3 (GPLv3).
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License (LGPL) as 
+# published by the Free Software Foundation, either version 3 of the License,
+# or (at your option) any later version.
 #
-# And for those who want to use this program in ways that are incompatible
-# with the GPLv3, PulseRain Technology LLC offers commercial license instead.
-# Please contact PulseRain Technology LLC (www.pulserain.com) for more detail.
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+# or FITNESS FOR A PARTICULAR PURPOSE.  
+# See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ###############################################################################
 
