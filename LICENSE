@@ -4,16 +4,17 @@
 # This program is distributed under a DUAL LICENSE: an open source license, 
 # and a commercial license. 
 # 
-# The open source license under which the RTL code (FPGA design) is distributed
-# is the GNU Public License version 3 (GPLv3, See the Appendix for more detail).
+# The open source license under which this program (except the Arduino sketches)
+# is distributed is the GNU Public License version 3 (GPLv3, See the Appendix 
+# for more detail).
 #
 # And for those who want to use this program in ways that are incompatible
 # with the GPLv3, PulseRain Technology LLC offers commercial license instead.
 # Please contact PulseRain Technology LLC (www.pulserain.com) for more detail.
 #
-# The open source license under which the Python script and Arduino sketches
-# are distributed is the GNU LESSER GENERAL PUBLIC LICENSE Version 3 
-# (LGPLv3, See the Appendix for more detail).
+# The open source license under which the Arduino sketches are distributed is 
+# the GNU LESSER GENERAL PUBLIC LICENSE Version 3  (LGPLv3, See the Appendix 
+# for more detail).
 ###############################################################################
 
 
